@@ -1,3 +1,4 @@
+set encoding=UTF-8
 set number
 set nocompatible
 set expandtab
@@ -31,4 +32,5 @@ Plug 'preservim/nerdtree'
 Plug 'scrooloose/syntastic'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'ryanoasis/vim-devicons'
 call plug#end()
